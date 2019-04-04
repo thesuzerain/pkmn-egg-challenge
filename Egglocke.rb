@@ -296,6 +296,8 @@ def initiateEgglocke(ignore = false)
       temp=true
     end
   end
+  # We iterate through the list of eggs and put them into the PC, one box at a time
+  # Each PC box has 30 available places (so 30 "t"s to a "y")
   for j in 1..listOfEggs.length-1
     if listOfEggs[j]!=nil
       egg = listOfEggs[j]
